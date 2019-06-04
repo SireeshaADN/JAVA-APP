@@ -12,7 +12,7 @@
   <url>http://maven.apache.org</url>
  
  
- 
+ <!-- test -->
  
     <properties>
         <!-- Generic properties -->
