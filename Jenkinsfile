@@ -16,7 +16,7 @@ node {
              
             sh '"/usr/share/maven/bin/mvn" -Dmaven.test.failure.ignore clean package'
          } else {
-            bat(/usr/share/maven/bin/mvn" -Dmaven.test.failure.ignore clean package/)
+            bat("/usr/share/maven/bin/mvn" -Dmaven.test.failure.ignore clean package/)
          }
         }
       }
