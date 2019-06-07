@@ -12,12 +12,12 @@ node {
         dir('SpringMVCSecurityXML') {
             sh 'pwd'
     // some block
-         if (isUnix()) {
+       //  if (isUnix()) {
              
             sh '"/usr/share/maven/bin/mvn" -Dmaven.test.failure.ignore clean package'
-         } else {
-            bat(/"usr/share/maven/bin/mvn" -Dmaven.test.failure.ignore clean package/)
-         }
+       //  } else {
+         //   bat(/"usr/share/maven/bin/mvn" -Dmaven.test.failure.ignore clean package/)
+       //  }
         }
       }
       input "approve?"
