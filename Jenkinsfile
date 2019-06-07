@@ -3,7 +3,7 @@ node {
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
      
-             
+     git branch: 'newbranch', url: 'https://github.com/SireeshaADN/JAVA-APP.git'        
       
    }
    stage('Build') {
