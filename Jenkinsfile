@@ -20,7 +20,7 @@ node {
        //  }
         }
       }
-      input "approve?"
+      //input "approve?"
    }
    stage('Results') {
      
